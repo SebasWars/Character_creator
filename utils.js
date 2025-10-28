@@ -3,7 +3,6 @@ export const PIXELS = [];
 export let skinkColor = "#fdddca";
 const canvas = document.querySelector(".canvas");
 
-// Crear los píxeles
 for (let i = 0; i < GRID_SIZE * GRID_SIZE; i++) {
   const div = document.createElement("div");
   div.classList.add("pixel");
@@ -11,8 +10,6 @@ for (let i = 0; i < GRID_SIZE * GRID_SIZE; i++) {
   PIXELS.push(div);
 }
 
-// --- Ejemplo de dibujo manual ---
-// Cada pixel tiene un índice: fila*gridSize + columna
 
 export function pintPixel(x, y, color) {
   const index = y * GRID_SIZE + x;
