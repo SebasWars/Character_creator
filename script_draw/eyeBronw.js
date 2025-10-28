@@ -70,10 +70,9 @@ function oneEyeBrow() {
 }
 
 function clearEyeBrowArea() {
-  // coordenadas donde se dibujan las cejas
   for (let x = 12; x <= 20; x++) {
     for (let y = 6; y < 8; y++) {
-      pintPixel(x, y, skinkColor); // usa aquí el color base de la piel o fondo
+      pintPixel(x, y, skinkColor);
       pintPixel(12, 8, skinkColor);
       pintPixel(15, 8, skinkColor);
       pintPixel(17, 8, skinkColor);
