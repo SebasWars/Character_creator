@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Tiny5&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(24, 24, 24);
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 1100px;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: rgba(255, 255, 255, 0.504);
+  backdrop-filter: blur(15px) saturate(150%);
+  border-radius: 1rem;
+}
+
+.user_pixel_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 37%;
+
+  input {
+    width: 90%;
+    padding: 10px 15px;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    font-size: 2rem;
+    font-family: "Tiny5", sans-serif;
+  }
+}
+
+.canvas {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+  grid-template-rows: repeat(30, 1fr);
+  border: 1px solid black;
+  border-radius: 1rem;
+  /* background-image: url(https://i.pinimg.com/474x/aa/34/e1/aa34e1c76a6569a36499ae86098759ee.jpg); */
+  background-size: cover;
+  background-position: bottom;
+}
+
+.construcor_container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Tiny5", sans-serif;
+  width: 55%;
+  height: 90%;
+  background-color: rgba(193, 193, 193, 0.331);
+  border-radius: 0.5rem;
+
+  h1 {
+    font-size: 2.9rem;
+    text-align: center;
+    margin: 1rem 0;
+    font-weight: 800;
+  }
+}
+
+.construcor_container .button_options {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+
+  & button {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    background-color: rgb(251, 251, 251);
+    box-shadow: -8px 3px 4px -1px rgba(0, 0, 0, 0.85);
+    outline: none;
+    cursor: pointer;
+  }
+  & svg {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.selector_options {
+  display: grid;
+  gap: 0.8rem;
+  width: 90%;
+  margin: 1rem auto;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.eye_brow img {
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+}
+
+.eye_brow {
+  display: grid;
+}
+
+.hair_style img {
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+}
+
+.hair_style {
+  display: none;
+}
+
+.beard_style img {
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+}
+
+.beard_style {
+  display: none;
+}
+
+.color_style {
+  display: none;
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.color_style .color_label {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  flex-direction: column;
+
+  label{
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  input{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+}
+

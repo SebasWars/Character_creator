@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="stiles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="user_pixel_container">
+        <input type="text" placeholder="Nick name" />
+        <div class="canvas"></div>
+      </div>
+      <div class="construcor_container">
+        <h1>CREATE YOUR CHARACTER!</h1>
+        <div class="button_options">
+          <button id="eye_brow_button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-eye"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+              <path
+                d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6"
+              />
+            </svg>
+          </button>
+          <button id="hair_style_button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-scissors"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M6 7m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+              <path d="M6 17m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+              <path d="M8.6 8.6l10.4 10.4" />
+              <path d="M8.6 15.4l10.4 -10.4" />
+            </svg>
+          </button>
+          <button id="beard_button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-moustache"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M15 9a3 3 0 0 1 2.599 1.5h0c.933 1.333 2.133 1.556 3.126 1.556l.291 0l.77 -.044l.213 0c-.963 1.926 -3.163 2.925 -6.6 3l-.4 0l-.165 0a3 3 0 0 1 .165 -6z"
+              />
+              <path
+                d="M9 9a3 3 0 0 0 -2.599 1.5h0c-.933 1.333 -2.133 1.556 -3.126 1.556l-.291 0l-.77 -.044l-.213 0c.963 1.926 3.163 2.925 6.6 3l.4 0l.165 0a3 3 0 0 0 -.165 -6z"
+              />
+            </svg>
+          </button>
+          <button id="color_modification">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-brush"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M3 21v-4a4 4 0 1 1 4 4h-4" />
+              <path d="M21 3a16 16 0 0 0 -12.8 10.2" />
+              <path d="M21 3a16 16 0 0 1 -10.2 12.8" />
+              <path d="M10.6 9a9 9 0 0 1 4.4 4.4" />
+            </svg>
+          </button>
+          <button id="backgroud_modification">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-background"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M4 8l4 -4" />
+              <path d="M14 4l-10 10" />
+              <path d="M4 20l16 -16" />
+              <path d="M20 10l-10 10" />
+              <path d="M20 16l-4 4" />
+            </svg>
+          </button>
+        </div>
+        <div class="selector_options eye_brow">
+          <img src="img/eye_brow/option_0.png" alt="" />
+          <img src="img/eye_brow/option_1.png" alt="" />
+          <img src="img/eye_brow/option_2.png" alt="" />
+          <img src="img/eye_brow/option_3.png" alt="" />
+          <img src="img/eye_brow/option_4.png" alt="" />
+          <img src="img/eye_brow/option_5.png" alt="" />
+        </div>
+
+        <div class="selector_options hair_style">
+          <img src="img/hair/option_0.png" alt="" />
+          <img src="img/hair/option_1.png" alt="" />
+          <img src="img/hair/option_2.png" alt="" />
+          <img src="img/hair/option_3.png" alt="" />
+          <img src="img/hair/option_4.png" alt="" />
+        </div>
+
+        <div class="selector_options beard_style">
+          <img src="img/beard/option_0.png" alt="" />
+          <img src="img/beard/option_1.png" alt="" />
+          <img src="img/beard/option_2.png" alt="" />
+          <img src="img/beard/option_3.png" alt="" />
+          <img src="img/beard/option_4.png" alt="" />
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
