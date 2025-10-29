@@ -62,11 +62,13 @@ function blad() {
   pintPixel(15, 0, "");
   pintPixel(16, 0, "");
 
-  for (let i = 6; i < 10; i++) {
+  for (let i = 6; i < 12; i++) {
     pintPixel(9, i, skinkColor);
     pintPixel(10, i, skinkColor);
     pintPixel(11, i, skinkColor);
   }
+  pintPixel(11, 12, skinkColor);
+  pintPixel(12, 12, skinkColor);
 
 
   /* CLOTH COLOR */
